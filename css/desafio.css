@@ -2,16 +2,32 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#general-container{
-    display: inline-flex;
+#general-container{    
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 350px;
 }
 
 #login{
     padding: 5%;
 }
 
+#login > div > a{
+    float: right;
+    padding: 7px 0;
+}
+
 #signup{ 
     padding: 5%;    
+}
+
+#signup > button{
+    background-color: #1985AC;
+    margin-top: 33px;
 }
 
 .bg-blue{
